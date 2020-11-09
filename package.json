@@ -1,0 +1,13 @@
+{
+  "name": "electron-relaxer",
+  "version": "1.0.0",
+  "description": "Relaxer Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "M. Sara Friis",
+  "dependencies": {
+    "electron": "^10.1.5"
+  }
+}
