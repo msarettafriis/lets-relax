@@ -2,6 +2,8 @@ const electron = require('electron')
 const url = require('url')
 const path = require('path')
 
+process.env.NODE_ENV = 'production'
+
 const { app, BrowserWindow, Menu } = electron
 
 let mainWindow
