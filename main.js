@@ -25,9 +25,14 @@ app.setAboutPanelOptions({
   applicationVersion: '1.0.0',
   version: '1.0.0',
   credits:
-    'Most of the code was done by Brad Traversy as part of a tutorial series, and the original background was made by Shella Sund, and was released under the Creative Commons Attribution 2.0 license. M. Sara Friis ported the code to Electron, modified the background, and made some design tweaks.',
+    'Most of the code was done by Brad Traversy as part of a tutorial' +
+    ' series.\nThe original background was made by Shella Sund, and was' +
+    ' released under the Creative Commons Attribution 2.0 license.\nM. Sara' +
+    ' Friis ported the code to Electron, modified the background, and made ' +
+    'some design tweaks.',
   authors:
-    'Brad Traversy (Code), Shella Sund (original background image), M. Sara Friis (tweaks and porting)'
+    'Brad Traversy (Code), Shella Sund (original background image), M. Sara' +
+    ' Friis (tweaks and porting)'
 })
 
 const viewMenu = {
