@@ -4,6 +4,9 @@ A breathing app for your desktop.
 
 It's made more for my practice than anything serious.
 
+Part of why I made it is because the tutorial worked only for Chrome-based
+browsers, and Electron uses the same engine as Chrome.
+
 ## Credits
 
 Most of the code was done by Brad Traversy as part of a tutorial series.
