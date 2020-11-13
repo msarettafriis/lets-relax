@@ -9,7 +9,7 @@ const { app, BrowserWindow, Menu } = electron
 let mainWindow
 
 app.on('ready', () => {
-  mainWindow = new BrowserWindow({})
+  mainWindow = new BrowserWindow({ icon: './icon/icon.png' })
   mainWindow.loadURL(
     url.format({
       pathname: path.join(__dirname, 'index.html'),
