@@ -5,13 +5,13 @@ A breathing app for your desktop.
 It's made more for my practice than anything serious.
 
 Part of why I made it is because the tutorial worked only for Chrome-based
-browsers, and Electron uses the same engine as Chrome.
+browsers (or at least not Firefox), and Electron uses the same browser engine as Chrome at its core.
 
 ## Credits
 
 Most of the code was done by Brad Traversy as part of a tutorial series.
 
-Brad's Tutorials:
+Brad Traversy's Tutorials:
 
 - [Relaxer App](https://youtu.be/l-1ZrU6avzI)
 - [Electron Tutorial](https://youtu.be/kN1Czs0m1SU) (relevant code is relased
