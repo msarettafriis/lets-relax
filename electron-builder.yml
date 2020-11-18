@@ -1,0 +1,26 @@
+productName: "Lets Relax"
+directories: {
+  output: "./dist/"
+}
+files: ["**/*", "icons/*"]
+mac: {
+  category: "public.app-category.productivity",
+  target: "dmg",
+  icon: "icon/icon.icns",
+  darkModeSupport: false,
+  minimumSystemVersion: "10.10.5",
+  hardenedRuntime: false,
+  gatekeeperAssess: false
+}
+dmg: {
+  icon: "icon/dmg.icns"
+}
+win: {
+  target: "portable",
+  icon: "icon/relaxer-windows-icon.ico"
+}
+linux: {
+  target: "AppImage",
+  icon: "icon/linux",
+  category: "Utility"
+}

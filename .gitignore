@@ -1,2 +1,4 @@
 node_modules
 icon/*.iconset
+dist
+.DS_Store

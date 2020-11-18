@@ -4,13 +4,18 @@
   "description": "Relaxer Desktop App",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist:mac": "electron-builder -m",
+    "dist:win64": "electron-builder -w --x64",
+    "dist:win32": "electron-builder -w --ia32",
+    "dist:linux64": "electron-builder -l --x64",
+    "dist:linux32": "electron-builder -l --ia32",
+    "dist:64" : "electron-builder -mwl --x64",
+    "dist:32" : "electron-builder -wl --ia32"
   },
   "author": "M. Sara Friis",
-  "dependencies": {
-    "electron": "^10.1.5"
-  },
   "devDependencies": {
+    "electron": "^10.1.5",
     "electron-builder": "^22.9.1",
     "eslint": "^7.13.0",
     "eslint-config-node": "^4.1.0",
